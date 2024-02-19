@@ -12,7 +12,7 @@ export function imageTemplate(image) {
             <a class="gallery-link" href="${largeImageURL}">
               <img class="gallery-image" src="${webformatURL}" alt="${tags}" />
             </a>
-               <ul class="list-content">      
+              <ul class="list-content">      
                   <li class="list-text"><p>Likes <span>${likes}</span></p></li>
                   <li class="list-text"><p>Views <span>${views}</span></p></li>
                   <li class="list-text"><p>Comments <span>${comments}</span></p></li>
